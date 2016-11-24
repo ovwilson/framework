@@ -1,5 +1,61 @@
 # framework
 
+# VSCODE Settings
+```
+// Place your settings in this file to overwrite the default settings
+{
+
+    // Editor
+    
+    "editor.formatOnSave": true,
+    
+    // Window
+
+    // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
+    "window.zoomLevel": 1,
+
+    // Files
+
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude" : {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    },
+
+        // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange" (editor loses focus), "onWindowChange" (window loses focus). If set to "afterDelay", you can configure the delay in "files.autoSaveDelay".
+    "files.autoSave": "afterDelay",
+
+    // Controls the delay in ms after which a dirty file is saved automatically. Only applies when "files.autoSave" is set to "afterDelay"
+    "files.autoSaveDelay": 1000,
+
+    // Extensions
+
+    // Automatically update extensions
+    "extensions.autoUpdate": true,
+
+    // JSHint configuration
+    
+    // A path to file containing the configuration options for jshint. If the file exists it overrides jshint.options and any .jshintrc file
+    "jshint.config": ".jshintrc",
+    
+    // TypeScript
+
+    // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+    "typescript.tsdk": ".\\node_modules\\typescript\\lib",
+
+    // TSLint
+
+    // An additional rules directory
+    "tslint.rulesDirectory": "typings",
+    
+    "git.confirmSync": false
+}
+
+```
+
+
 # Grunt Configuration
 
 ```
