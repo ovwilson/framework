@@ -3,3 +3,4 @@
 /// <reference path="globals/jquery/index.d.ts" />
 /// <reference path="globals/node/index.d.ts" />
 /// <reference path="globals/webpack/index.d.ts" />
+/// <reference path="modules/chai/index.d.ts" />
